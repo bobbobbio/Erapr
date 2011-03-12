@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = A5DF4A0C10BF9C01002CDDB5 /* map editor */;
+		activeTarget = A5EB216B10BF5CB400ED1B0F /* map editor */;
+		addToTargets = (
+			A5EB216B10BF5CB400ED1B0F /* map editor */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = A5918E530FDC8C2200555C42 /* Code sense */;
+		executables = (
+			A5DF4A0C10BF9C01002CDDB5 /* map editor */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					409,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					446,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287142427;
+			PBXWorkspaceStateSaveDate = 287142427;
+		};
+		perUserProjectItems = {
+			A515DD84111B9ABC006EB10B /* PBXTextBookmark */ = A515DD84111B9ABC006EB10B /* PBXTextBookmark */;
+			A5A18BD9111D739F00CE0D54 /* PBXBookmark */ = A5A18BD9111D739F00CE0D54 /* PBXBookmark */;
+			A5A18BDD111D73F000CE0D54 /* PBXTextBookmark */ = A5A18BDD111D73F000CE0D54 /* PBXTextBookmark */;
+			A5A18BEA111D73F000CE0D54 /* PBXTextBookmark */ = A5A18BEA111D73F000CE0D54 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A5918E520FDC8C2200555C42 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A504D88010C48F3D0020CB74 /* Map.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 5122}}";
+			sepNavSelRange = "{8574, 0}";
+			sepNavVisRange = "{8023, 824}";
+			sepNavWindowFrame = "{{283, 173}, {846, 600}}";
+		};
+	};
+	A504D88110C48F3D0020CB74 /* Map.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 1495}}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 745}";
+			sepNavWindowFrame = "{{180, 214}, {846, 600}}";
+		};
+	};
+	A512E15410DC8F9400AFB289 /* data1.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1250, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+			sepNavWindowFrame = "{{15, 129}, {1309, 744}}";
+		};
+	};
+	A515DD84111B9ABC006EB10B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A515DD85111B9ABC006EB10B /* iostream */;
+		name = "iostream: 77";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	A515DD85111B9ABC006EB10B /* iostream */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = iostream;
+		path = "/usr/include/c++/4.2.1/iostream";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {587, 1092}}";
+			sepNavSelRange = "{2900, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	A5918E520FDC8C2200555C42 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A5918E530FDC8C2200555C42 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A5918E780FDC8C4700555C42 /* GO.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 2483}}";
+			sepNavSelRange = "{831, 18}";
+			sepNavVisRange = "{486, 564}";
+			sepNavWindowFrame = "{{613, 271}, {827, 569}}";
+		};
+	};
+	A5918E800FDC8C4700555C42 /* tileditmap.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 4628}}";
+			sepNavSelRange = "{2944, 9}";
+			sepNavVisRange = "{3456, 1264}";
+			sepNavWindowFrame = "{{470, 89}, {791, 607}}";
+		};
+	};
+	A5918E810FDC8C4700555C42 /* tileedit.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 598}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{0, 615}";
+			sepNavWindowFrame = "{{417, 286}, {827, 569}}";
+		};
+	};
+	A5918E820FDC8C4700555C42 /* tileedit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 715}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{0, 705}";
+			sepNavWindowFrame = "{{588, 239}, {827, 569}}";
+		};
+	};
+	A5918EB30FDC8CAC00555C42 /* mapdata.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 701}";
+			sepNavWindowFrame = "{{15, 273}, {846, 600}}";
+		};
+	};
+	A5A18BD9111D739F00CE0D54 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A504D88010C48F3D0020CB74 /* Map.cpp */;
+	};
+	A5A18BDD111D73F000CE0D54 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5A18BDE111D73F000CE0D54 /* iostream */;
+		name = "iostream: 77";
+		rLen = 0;
+		rLoc = 2900;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	A5A18BDE111D73F000CE0D54 /* iostream */ = {
+		isa = PBXFileReference;
+		name = iostream;
+		path = "/usr/include/c++/4.2.1/iostream";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {587, 1092}}";
+			sepNavSelRange = "{2900, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	A5A18BEA111D73F000CE0D54 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A504D88010C48F3D0020CB74 /* Map.cpp */;
+		name = "Map.cpp: 310";
+		rLen = 0;
+		rLoc = 8574;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 8023;
+	};
+	A5B529A310BF990700B8D632 /* Info-map__Upgraded_.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 273}, {846, 600}}";
+		};
+	};
+	A5DF4A0C10BF9C01002CDDB5 /* map editor */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "map editor";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	A5EB216B10BF5CB400ED1B0F /* map editor */ = {
+		activeExec = 0;
+		executables = (
+			A5DF4A0C10BF9C01002CDDB5 /* map editor */,
+		);
+	};
+}

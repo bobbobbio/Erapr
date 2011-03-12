@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A504D88210C48F3D0020CB74 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A504D88010C48F3D0020CB74 /* Map.cpp */; };
+		A512E15D10DC90F800AFB289 /* maindata.dat in Resources */ = {isa = PBXBuildFile; fileRef = A512E15C10DC90F800AFB289 /* maindata.dat */; };
+		A5C4B0E310BF6D2D002C173D /* mapdata.dat in Resources */ = {isa = PBXBuildFile; fileRef = A5C4B0E210BF6D2D002C173D /* mapdata.dat */; };
+		A5EB219310BF5CB400ED1B0F /* GO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5918E780FDC8C4700555C42 /* GO.cpp */; };
+		A5EB219410BF5CB400ED1B0F /* tileditmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5918E800FDC8C4700555C42 /* tileditmap.cpp */; };
+		A5EB219510BF5CB400ED1B0F /* tileedit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5918E810FDC8C4700555C42 /* tileedit.cpp */; };
+		A5EB219710BF5CB400ED1B0F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A5EB219810BF5CB400ED1B0F /* Allegro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43666B59047E410100A80104 /* Allegro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		43666B59047E410100A80104 /* Allegro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Allegro.framework; path = /Library/Frameworks/Allegro.framework; sourceTree = "<absolute>"; };
+		A504D88010C48F3D0020CB74 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Map.cpp; path = ../Map.cpp; sourceTree = SOURCE_ROOT; };
+		A504D88110C48F3D0020CB74 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map.h; path = ../Map.h; sourceTree = SOURCE_ROOT; };
+		A512E15410DC8F9400AFB289 /* data1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = data1.h; path = ../data1.h; sourceTree = SOURCE_ROOT; };
+		A512E15C10DC90F800AFB289 /* maindata.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = maindata.dat; path = ../maindata.dat; sourceTree = SOURCE_ROOT; };
+		A5918E780FDC8C4700555C42 /* GO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GO.cpp; sourceTree = "<group>"; };
+		A5918E800FDC8C4700555C42 /* tileditmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tileditmap.cpp; sourceTree = "<group>"; };
+		A5918E810FDC8C4700555C42 /* tileedit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tileedit.cpp; sourceTree = "<group>"; };
+		A5918E820FDC8C4700555C42 /* tileedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tileedit.h; sourceTree = "<group>"; };
+		A5918EB30FDC8CAC00555C42 /* mapdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapdata.h; sourceTree = "<group>"; };
+		A5B529A310BF990700B8D632 /* Info-map__Upgraded_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-map__Upgraded_.plist"; sourceTree = "<group>"; };
+		A5C4B0E210BF6D2D002C173D /* mapdata.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = mapdata.dat; sourceTree = "<group>"; };
+		A5DF4A0B10BF9C01002CDDB5 /* map editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "map editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EB219610BF5CB400ED1B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB219710BF5CB400ED1B0F /* Cocoa.framework in Frameworks */,
+				A5EB219810BF5CB400ED1B0F /* Allegro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5DF4A0B10BF9C01002CDDB5 /* map editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IMER map */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "IMER map";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A512E15410DC8F9400AFB289 /* data1.h */,
+				A504D88010C48F3D0020CB74 /* Map.cpp */,
+				A504D88110C48F3D0020CB74 /* Map.h */,
+				A5918E780FDC8C4700555C42 /* GO.cpp */,
+				A5918EB30FDC8CAC00555C42 /* mapdata.h */,
+				A5918E800FDC8C4700555C42 /* tileditmap.cpp */,
+				A5918E810FDC8C4700555C42 /* tileedit.cpp */,
+				A5918E820FDC8C4700555C42 /* tileedit.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A512E15C10DC90F800AFB289 /* maindata.dat */,
+				A5C4B0E210BF6D2D002C173D /* mapdata.dat */,
+				A5B529A310BF990700B8D632 /* Info-map__Upgraded_.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				43666B59047E410100A80104 /* Allegro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EB216B10BF5CB400ED1B0F /* map editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EB219910BF5CB400ED1B0F /* Build configuration list for PBXNativeTarget "map editor" */;
+			buildPhases = (
+				A5EB216C10BF5CB400ED1B0F /* Resources */,
+				A5EB219210BF5CB400ED1B0F /* Sources */,
+				A5EB219610BF5CB400ED1B0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "map editor";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "IMER map";
+			productReference = A5DF4A0B10BF9C01002CDDB5 /* map editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A5918E500FDC8C2200555C42 /* Build configuration list for PBXProject "map editor" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IMER map */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EB216B10BF5CB400ED1B0F /* map editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EB216C10BF5CB400ED1B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C4B0E310BF6D2D002C173D /* mapdata.dat in Resources */,
+				A512E15D10DC90F800AFB289 /* maindata.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EB219210BF5CB400ED1B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB219310BF5CB400ED1B0F /* GO.cpp in Sources */,
+				A5EB219410BF5CB400ED1B0F /* tileditmap.cpp in Sources */,
+				A5EB219510BF5CB400ED1B0F /* tileedit.cpp in Sources */,
+				A504D88210C48F3D0020CB74 /* Map.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5918E4A0FDC8C2200555C42 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		A5918E4B0FDC8C2200555C42 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		A5918E4C0FDC8C2200555C42 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		A5EB219A10BF5CB400ED1B0F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/Allegro.framework/Versions/Current/Headers\"";
+				INFOPLIST_FILE = "Info-map__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lalleg-main",
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = "map editor";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		A5EB219B10BF5CB400ED1B0F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/Allegro.framework/Versions/Current/Headers\"";
+				INFOPLIST_FILE = "Info-map__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lalleg-main",
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = "map editor";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		A5EB219C10BF5CB400ED1B0F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(LOCAL_LIBRARY_DIR)/Frameworks/Allegro.framework/Versions/Current/Headers\"";
+				INFOPLIST_FILE = "Info-map__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lalleg-main",
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = "map editor";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5918E500FDC8C2200555C42 /* Build configuration list for PBXProject "map editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5918E4A0FDC8C2200555C42 /* Development */,
+				A5918E4B0FDC8C2200555C42 /* Deployment */,
+				A5918E4C0FDC8C2200555C42 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		A5EB219910BF5CB400ED1B0F /* Build configuration list for PBXNativeTarget "map editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EB219A10BF5CB400ED1B0F /* Development */,
+				A5EB219B10BF5CB400ED1B0F /* Deployment */,
+				A5EB219C10BF5CB400ED1B0F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

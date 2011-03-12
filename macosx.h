@@ -1,0 +1,5 @@
+#define MAIN_DATA "../Resources/maindata.dat"
+#define MAP_DATA "../Resources/mapdata.dat"
+#define MAP1 "../Resources/maps/testmap.map"
+#define MAP2 "../Resources/maps/map2.map"
+#define MAP3 "../Resources/maps/map3.map"

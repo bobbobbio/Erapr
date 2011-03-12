@@ -1,0 +1,633 @@
+Terapr
+v7
+r0
+t314246144.060755
+cCheck dependencies
+cProcessInfoPlistFile "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Info.plist" Info-erapr__Upgraded_.plist
+cCpResource build/Deployment/erapr.app/Contents/Resources/maindata.dat maindata.dat
+cCpResource build/Deployment/erapr.app/Contents/Resources/mapdata.dat "map editor/mapdata.dat"
+cCpResource build/Deployment/erapr.app/Contents/Resources/map3.map maps/map3.map
+cCpResource build/Deployment/erapr.app/Contents/Resources/appicon.icns appicon.icns
+cCompileXIB "/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib"
+cCpResource build/Deployment/erapr.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/main.o "/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Sprite.o "/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Map.o "/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Enemy.o "/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Player.o "/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Projectile.o "/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Block.o "/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Item.o "/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/ScoreSprite.o "/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+cLd "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr" normal i386
+cPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map3.map maps/map3.map
+cPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map2.map maps/map2.map
+cPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map1.map maps/map1.map
+cPBXCp build/Deployment/erapr.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cPBXCp build/Deployment/erapr.app/Contents/Frameworks/Allegro.framework /Library/Frameworks/Allegro.framework
+cTouch "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C87F05600000000000000EE
+t1283977302
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Headers/allegro.h
+c00000000471236340000000000000773
+t1192375860
+s1907
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/aldumb.h
+c000000004B4E72B40000000000000CEB
+t1263432372
+s3307
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Library/Frameworks/Allegro.framework
+c000000000000000000000000000000CC
+t0
+s204
+
+N/Library/Frameworks/Allegro.framework/Allegro
+c000000004712363400000000001E8E44
+t1192375860
+s2002500
+
+N/Library/Frameworks/Allegro.framework/Versions/4.2.2/Resources/libaldmd.a
+c000000004B9888DF00000000000F3068
+t1268287711
+s995432
+
+N/Library/Frameworks/Allegro.framework/Versions/4.2.2/Resources/liballeg-main.a
+c000000004712354C0000000000006820
+t1192375628
+s26656
+
+N/Library/Frameworks/Allegro.framework/Versions/4.2.2/Resources/libdumbd.a
+c000000004B9888E900000000001AEE10
+t1268287721
+s1764880
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp
+c000000004BEE49EB000000000000039A
+t1273907691
+s922
+i"Block.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Block.h
+c000000004CB6ACD300000000000001E6
+t1287040211
+s486
+i<Allegro/Allegro.h>
+i<math.h>
+i"Player.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp
+c000000004CB6966B00000000000005CD
+t1287034475
+s1485
+i"Enemy.h"
+i<iostream>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.h
+c000000004CB6B29A00000000000002E5
+t1287041690
+s741
+i"Projectile.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp
+c000000004CB54E8B000000000000017E
+t1286950539
+s382
+i"Item.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Item.h
+c000000004CB6BBC900000000000001D1
+t1287044041
+s465
+i"ScoreSprite.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib
+c000000004BEE69C300000000000066B6
+t1273915843
+s26294
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp
+c000000004CB423080000000000002401
+t1286873864
+s9217
+i"Map.h"
+i<iostream>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Map.h
+c000000004CB40E190000000000000ABD
+t1286868505
+s2749
+i<Allegro/Allegro.h>
+i"shapeTypes.h"
+i<vector>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp
+c000000004CB14D2300000000000004E3
+t1286688035
+s1251
+i"Player.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Player.h
+c000000004CB1557D0000000000000263
+t1286690173
+s611
+i"Sprite.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp
+c000000004BDE92B3000000000000020A
+t1272877747
+s522
+i"Projectile.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.h
+c000000004CB6B2A20000000000000228
+t1287041698
+s552
+i<Allegro/Allegro.h>
+i<math.h>
+i"Item.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp
+c000000004CB6BCDA000000000000019E
+t1287044314
+s414
+i"ScoreSprite.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.h
+c000000004CB6BBDF0000000000000186
+t1287044063
+s390
+i"Block.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Sparkle.framework
+c0000000048CC85E600000000000000CC
+t1221363174
+s204
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp
+c000000004CB6BA4D0000000000001052
+t1287043661
+s4178
+i"Sprite.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.h
+c000000004CB6BBD7000000000000054A
+t1287044055
+s1354
+i<Allegro/Allegro.h>
+i"Map.h"
+i<iostream>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/appicon.icns
+c000000004BEE59E200000000000202C4
+t1273911778
+s131780
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app
+t1292553344
+s102
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Frameworks/Allegro.framework
+t1292553343
+s204
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Frameworks/Sparkle.framework
+t1292553343
+s204
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Info.plist
+t1292553338
+s861
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr
+t1292553343
+s541584
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/PkgInfo
+t1292553338
+s8
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/MainMenu.nib
+t1292553339
+s5561
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/appicon.icns
+t1292553338
+s131780
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/dsa_pub.pem
+t1292553339
+s1178
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maindata.dat
+t1292553339
+s2903669
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/map3.map
+t1292553338
+s23017
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/mapdata.dat
+t1292553339
+s1225313
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps/map1.map
+t1292553343
+s2366
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps/map2.map
+t1292553343
+s2386
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps/map3.map
+t1292553343
+s23017
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Block.o
+t1292553341
+s2792
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Enemy.o
+t1292553341
+s3668
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Item.o
+t1292553342
+s2740
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Map.o
+t1292553340
+s14528
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Player.o
+t1292553341
+s3692
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Projectile.o
+t1292553341
+s3556
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/ScoreSprite.o
+t1292553342
+s3200
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Sprite.o
+t1292553340
+s6676
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/erapr.LinkFileList
+c000000004D0ACC7A0000000000000441
+t1292553338
+s1089
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/main.o
+t1292553341
+s22280
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/data1.h
+c000000004B945EC800000000000001F9
+t1268014792
+s505
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/dsa_pub.pem
+c000000004BEE6D1B000000000000049A
+t1273916699
+s1178
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/macosx.h
+c000000004B9A111200000000000000D7
+t1268388114
+s215
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp
+c000000004CB6BCB90000000000003F08
+t1287044281
+s16136
+i"main.h"
+i<aldumb.h>
+i<cstdlib>
+i<iostream>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/main.h
+c000000004CB6B6EC00000000000001A1
+t1287042796
+s417
+i<Allegro/Allegro.h>
+i"Enemy.h"
+i"data1.h"
+i"map editor/mapdata.h"
+i"win32.h"
+i"macosx.h"
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/maindata.dat
+c000000004BEE501700000000002C4E75
+t1273909271
+s2903669
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/map editor/mapdata.dat
+c000000004CB41EA0000000000012B261
+t1286872736
+s1225313
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/map editor/mapdata.h
+c000000004CB41EA000000000000002D0
+t1286872736
+s720
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/maps/map1.map
+c000000004C020382000000000000093E
+t1275200386
+s2366
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/maps/map2.map
+c000000004C0203A10000000000000952
+t1275200417
+s2386
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/maps/map3.map
+c000000004CB4256200000000000059E9
+t1286874466
+s23017
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/shapeTypes.h
+c000000004B9810A3000000000000060C
+t1268256931
+s1548
+i<algorithm>
+
+N/Users/remi/Documents/Current Projects/erapr/trunk/win32.h
+c000000004B9A11120000000000000091
+t1268388114
+s145
+
+NInfo-erapr__Upgraded_.plist
+c000000004BEFB58D000000000000035D
+t1274000781
+s861
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314246138#314246138#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Block.o "/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246141.424002
+e314246141.833397
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Block.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@68"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp314246141#314246141#0(0"0(0#0#60"/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp8600716064#1206"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Block.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Block.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Enemy.o "/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246140.898665
+e314246141.306952
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Enemy.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@68"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp314246140#314246141#0(0"0(0#0#60"/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp8602101376#1206"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Enemy.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Enemy.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Item.o "/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246141.712615
+e314246142.116411
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Item.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@67"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp314246141#314246142#0(0"0(0#0#59"/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp8602466592#1204"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Item.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Item.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Map.o "/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246140.226706
+e314246140.898504
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Map.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@66"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp314246140#314246140#0(0"0(0#0#58"/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp8605019168#1202"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Map.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Map.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Player.o "/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246141.019703
+e314246141.423891
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Player.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp314246141#314246141#0(0"0(0#0#61"/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp8601428128#1208"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Player.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Player.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Projectile.o "/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246141.307059
+e314246141.712508
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Projectile.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@73"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp314246141#314246141#0(0"0(0#0#65"/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp8604756384#1216"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Projectile.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Projectile.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/ScoreSprite.o "/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246141.833512
+e314246142.211973
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/ScoreSprite.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@74"Compile /Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp314246141#314246142#0(0"0(0#0#66"/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp8602077536#1218"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/ScoreSprite.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/ScoreSprite.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Sprite.o "/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246139.210417
+e314246140.226598
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/Sprite.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@69"Compile /Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp314246139#314246140#0(0"0(0#0#61"/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp8604681088#1208"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/Sprite.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/Sprite.o"0#
+
+CCompileC build/erapr.build/Deployment/erapr.build/Objects-normal/i386/main.o "/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_0
+s314246139.209382
+e314246141.019589
+r1
+xCompileC
+xbuild/erapr.build/Deployment/erapr.build/Objects-normal/i386/main.o
+x/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@67"Compile /Users/remi/Documents/Current Projects/erapr/trunk/main.cpp314246139#314246141#0(0"0(0#0#59"/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp8604963488#1204"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O2 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.5 "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/erapr.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/include" -I/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/Current/Headers "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources/i386" "-I/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/DerivedSources" -c "/Users/remi/Documents/Current Projects/erapr/trunk/main.cpp" -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib"
+s314246138.942514
+e314246139.123663
+r1
+xCompileXIB
+x/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib
+lSLF07#2@23"CompileXIB MainMenu.xib314246138#314246139#0(0"0(0#0#63"/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib8595567360#381"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/MainMenu.nib" "/Users/remi/Documents/Current Projects/erapr/trunk/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCpResource build/Deployment/erapr.app/Contents/Resources/appicon.icns appicon.icns
+s314246138.941000
+e314246139.013298
+r1
+xCpResource
+xbuild/Deployment/erapr.app/Contents/Resources/appicon.icns
+xappicon.icns
+lSLF07#2@17"Copy appicon.icns314246138#314246139#0(0"0(0#0#63"/Users/remi/Documents/Current Projects/erapr/trunk/appicon.icns8600349504#394"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/appicon.icns" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources"0#
+
+CCpResource build/Deployment/erapr.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+s314246139.123749
+e314246139.162652
+r1
+xCpResource
+xbuild/Deployment/erapr.app/Contents/Resources/dsa_pub.pem
+xdsa_pub.pem
+lSLF07#2@16"Copy dsa_pub.pem314246139#314246139#0(0"0(0#0#62"/Users/remi/Documents/Current Projects/erapr/trunk/dsa_pub.pem8600697504#393"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/dsa_pub.pem" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources"0#
+
+CCpResource build/Deployment/erapr.app/Contents/Resources/maindata.dat maindata.dat
+s314246138.934328
+e314246139.209280
+r1
+xCpResource
+xbuild/Deployment/erapr.app/Contents/Resources/maindata.dat
+xmaindata.dat
+lSLF07#2@17"Copy maindata.dat314246138#314246139#0(0"0(0#0#63"/Users/remi/Documents/Current Projects/erapr/trunk/maindata.dat8602150272#394"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/maindata.dat" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources"0#
+
+CCpResource build/Deployment/erapr.app/Contents/Resources/map3.map maps/map3.map
+s314246138.939983
+e314246138.969155
+r1
+xCpResource
+xbuild/Deployment/erapr.app/Contents/Resources/map3.map
+xmaps/map3.map
+lSLF07#2@18"Copy maps/map3.map314246138#314246138#0(0"0(0#0#64"/Users/remi/Documents/Current Projects/erapr/trunk/maps/map3.map8601325728#395"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/maps/map3.map" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources"0#
+
+CCpResource build/Deployment/erapr.app/Contents/Resources/mapdata.dat "map editor/mapdata.dat"
+s314246138.937878
+e314246139.108186
+r1
+xCpResource
+xbuild/Deployment/erapr.app/Contents/Resources/mapdata.dat
+xmap editor/mapdata.dat
+lSLF07#2@27"Copy map editor/mapdata.dat314246138#314246139#0(0"0(0#0#73"/Users/remi/Documents/Current Projects/erapr/trunk/map editor/mapdata.dat8601927264#404"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/map editor/mapdata.dat" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources"0#
+
+CLd "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr" normal i386
+s314246142.212081
+e314246143.455199
+r1
+xLd
+x/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr
+xnormal
+xi386
+lSLF07#2@103"Link /Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr314246142#314246143#0(0"0(0#0#0"8601360864#945"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-L/Users/remi/Documents/Current Projects/erapr/trunk" -L/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/Allegro.framework/Versions/4.2.2/Resources "-F/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment" "-F/Users/remi/Documents/Current Projects/erapr/trunk" -filelist "/Users/remi/Documents/Current Projects/erapr/trunk/build/erapr.build/Deployment/erapr.build/Objects-normal/i386/erapr.LinkFileList" -mmacosx-version-min=10.5 -L/usr/local/lib -laldmd -ldumbd -lalleg-main -framework Cocoa -framework Allegro -lalleg-main -laldmd -ldumbd -framework Sparkle -prebind -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/MacOS/erapr"0#
+
+CPBXCp build/Deployment/erapr.app/Contents/Frameworks/Allegro.framework /Library/Frameworks/Allegro.framework
+s314246143.465278
+e314246144.024233
+r1
+xPBXCp
+xbuild/Deployment/erapr.app/Contents/Frameworks/Allegro.framework
+x/Library/Frameworks/Allegro.framework
+lSLF07#2@42"Copy /Library/Frameworks/Allegro.framework314246143#314246144#0(0"0(0#0#37"/Library/Frameworks/Allegro.framework8601662944#367"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Library/Frameworks/Allegro.framework "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Frameworks"0#
+
+CPBXCp build/Deployment/erapr.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s314246143.464618
+e314246143.794381
+r1
+xPBXCp
+xbuild/Deployment/erapr.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework314246143#314246143#0(0"0(0#0#68"/Users/remi/Documents/Current Projects/erapr/trunk/Sparkle.framework8601262240#400"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/Sparkle.framework" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Frameworks"0#
+
+CPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map1.map maps/map1.map
+s314246143.456640
+e314246143.464535
+r1
+xPBXCp
+xbuild/Deployment/erapr.app/Contents/Resources/maps/map1.map
+xmaps/map1.map
+lSLF07#2@18"Copy maps/map1.map314246143#314246143#0(0"0(0#0#64"/Users/remi/Documents/Current Projects/erapr/trunk/maps/map1.map8604755840#400"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/maps/map1.map" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps"0#
+
+CPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map2.map maps/map2.map
+s314246143.456087
+e314246143.462276
+r1
+xPBXCp
+xbuild/Deployment/erapr.app/Contents/Resources/maps/map2.map
+xmaps/map2.map
+lSLF07#2@18"Copy maps/map2.map314246143#314246143#0(0"0(0#0#64"/Users/remi/Documents/Current Projects/erapr/trunk/maps/map2.map8601257600#400"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/maps/map2.map" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps"0#
+
+CPBXCp build/Deployment/erapr.app/Contents/Resources/maps/map3.map maps/map3.map
+s314246143.455374
+e314246143.460940
+r1
+xPBXCp
+xbuild/Deployment/erapr.app/Contents/Resources/maps/map3.map
+xmaps/map3.map
+lSLF07#2@18"Copy maps/map3.map314246143#314246143#0(0"0(0#0#64"/Users/remi/Documents/Current Projects/erapr/trunk/maps/map3.map8599830752#400"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/remi/Documents/Current Projects/erapr/trunk/maps/map3.map" "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Resources/maps"0#
+
+CProcessInfoPlistFile "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Info.plist" Info-erapr__Upgraded_.plist
+s314246138.913842
+e314246138.933924
+r1
+xProcessInfoPlistFile
+x/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Info.plist
+xInfo-erapr__Upgraded_.plist
+lSLF07#2@35"Process Info-erapr__Upgraded_.plist314246138#314246138#0(0"0(0#0#78"/Users/remi/Documents/Current Projects/erapr/trunk/Info-erapr__Upgraded_.plist7959393759785021440#367"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    builtin-infoPlistUtility Info-erapr__Upgraded_.plist -genpkginfo "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app/Contents/Info.plist"0#
+
+CTouch "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app"
+s314246144.024333
+e314246144.060658
+r1
+xTouch
+x/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app
+lSLF07#2@83"Touch /Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app314246144#314246144#0(0"0(0#0#0"8604772480#162"    cd "/Users/remi/Documents/Current Projects/erapr/trunk"    /usr/bin/touch -c "/Users/remi/Documents/Current Projects/erapr/trunk/build/Deployment/erapr.app"0#
+

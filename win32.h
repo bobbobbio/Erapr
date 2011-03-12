@@ -1,0 +1,5 @@
+#define MAIN_DATA "maindata.dat"
+#define MAP_DATA "mapdata.dat"
+#define MAP1 "map1.map"
+#define MAP2 "maps/map2.map"
+#define MAP3 "maps/map3.map"
